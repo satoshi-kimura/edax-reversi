@@ -1,3 +1,4 @@
+# simple sample
 FROM gcc:13-bookworm
 
 WORKDIR /opt/edax
