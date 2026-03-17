@@ -11,7 +11,6 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 COPY src /opt/edax/src
-COPY problem /opt/edax/problem
 COPY LICENSE /opt/edax/LICENSE
 
 RUN set -eux; \
